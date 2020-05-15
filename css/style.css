@@ -23,10 +23,14 @@ header a{
     font-size: 15px;
     
 }
+<<<<<<< HEAD
 .header-logo{ 
     margin: 5px; 
     padding-top: 5px;
 }
+=======
+.header-logo{ margin: 5px; }
+>>>>>>> 2743c14ac62a78a1edb96a3c6d21b7cb0f4e6dfa
 .header-content{
     /*border: 1px solid blue;*/
     display: flex;
