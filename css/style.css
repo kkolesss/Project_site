@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+header{
+    font-family: 'Roboto Condensed';
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    margin: -5px;
+    width: 1200px;
+    /*border: 1px solid RED;*/
+    /*border: 1px solid blue;*/
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    
+}
+.header-logo{ margin: 5px; }
+.header-content{
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    border-radius: 2px;
+}
+.header-content-left{
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+}
+.header-content-left a{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.header-content-right{
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    margin-left: 550px;
+}
+.header-content-right a{
+    padding-right: 5px;
+    /*border: 1px solid blue;*/
+}
+.header-contact{
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    padding-top: 5px;
+    height: auto;
+}
+.social-net{ margin-top: 10px; }
+.social-net a{
+    padding-left: 5px;
+}
+
+main{
+    margin-top: 10px;
+    width: auto;
+    height: 400px;
+    opacity: 1;
+}
+
+ul.nba-club-list{ 
+    padding-inline-start: 0px;
+    list-style: none;
+    display: table;
+    width: 100%;
+}
+.nba-club-list li{
+    /*float: left;*/
+    filter: grayscale(100%);
+    padding: 5px;
+    display: table-cell;
+}
+.nba-club-list li:hover{
+    filter: grayscale(0%);
+    padding: 5px;
+    display: table-cell;
+}
+.nba-club-list{
+    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+
+
+footer{
+    font-family: 'Roboto Condensed';
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    margin: -5px;
+    /*border: 1px solid blue;*/
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-logo{
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.creators{
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding-right: 20px;
+
+}
+
+.footer-other{
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    /*border: 1px solid blue;*/
+}
+.footer-other a, .creators a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+.footer-policy{
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid blue;*/
+}
+.footer-other p{
+    /*border: 1px solid blue;*/
+    color: gray;
+    font-size: 14px;
+}
